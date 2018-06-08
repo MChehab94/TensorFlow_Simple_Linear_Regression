@@ -5,7 +5,7 @@ Below is an overiew about the existing files:
   * Reads the data file
   * Separate data from labels
   * Split into training and test using sklearn.cross_validation
-* MyLinearRegression.py: The main script that contains the actual model. Once the script executes, it creates a directory called 'tf_model' that contais:
+* MyLinearRegression.py: The main script that contains the actual model. The code has been inspired from this [repo](https://github.com/floydhub/tensorflow-examples/blob/master/2_BasicModels/linear_regression.py). Once the script executes, it creates a directory called 'tf_model' that contais:
   * checkpoint
   * model.ckpt.data-00000-of-00001
   * model.ckpt.index
